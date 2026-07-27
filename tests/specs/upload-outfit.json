@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Upload Outfit",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Allows users to upload their own outfit images"
+            }
+          }
+        ],
+        "send": {
+          "callback": "upload:outfit"
+        }
+      }
+    ]
+  }
+]
